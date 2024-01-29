@@ -21,7 +21,7 @@ def chat_with_model(messages):
         model="gpt-4",
         engine=os.environ['OPENAI_ENGINE'],
         messages=messages,
-        max_tokens=6000,
+        max_tokens=4000,
     )
     return response.choices[0].message.content
 
