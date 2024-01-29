@@ -1,0 +1,6 @@
+openai<1.0
+langchain 
+openpyxl 
+tiktoken 
+chromadb 
+nest_asyncio
